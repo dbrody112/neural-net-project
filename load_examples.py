@@ -4,6 +4,16 @@ import numpy as np
 import math
 import os
 
+#class to make pseudocode easier to follow
+class Node:
+    def __init__(self):
+        self.inputs = []
+        self.weights = []
+        self.val = 0
+        self.inputVal = 0
+    def length(self):
+        return len(self.weights)
+
 def load_dataset(filename):
     examples = []
     if(os.path.isfile(filename)):
