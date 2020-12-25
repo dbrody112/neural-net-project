@@ -6,6 +6,7 @@ import os
 from load_weights import load_weights
 from console import train_console, test_console
 from load_examples import load_dataset
+from activation import sigmoid, sigmoid_deriv
 
 
 #class to make pseudocode easier to follow
