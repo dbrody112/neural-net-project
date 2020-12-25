@@ -1,4 +1,4 @@
-from neural_network.py import NeuralNetwork
+from neural_net.py import NeuralNetwork
 
 def main():
   network = NeuralNetwork()
