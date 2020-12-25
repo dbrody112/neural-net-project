@@ -3,21 +3,11 @@ import pandas as pd
 import numpy as np
 import math
 import os
-from load_weights import load_weights
+from load_weights import load_weights,Node
 from console import train_console, test_console
 from load_examples import load_dataset
 from activation import sigmoid, sigmoid_deriv
 
-
-#class to make pseudocode easier to follow
-class Node:
-    def __init__(self):
-        self.inputs = []
-        self.weights = []
-        self.val = 0
-        self.inputVal = 0
-    def length(self):
-        return len(self.weights)
 
 
 class NeuralNetwork:
