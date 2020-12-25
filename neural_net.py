@@ -3,6 +3,9 @@ import pandas as pd
 import numpy as np
 import math
 import os
+from load_weights import load_weights
+from console import train_console, test_console
+from load_examples import load_dataset
 
 
 #class to make pseudocode easier to follow
