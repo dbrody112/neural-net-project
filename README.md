@@ -13,4 +13,6 @@ Shown above is the training set (which can be found in this repository as biodeg
 
 ![train](https://user-images.githubusercontent.com/59486373/103460890-0c743c80-4ce8-11eb-9701-bfe5c1ce5690.png)
 
+Shown above is an example of a weights file. Once again the delimiter is a space and each line has a certain format. On the first line the first number is the number of input nodes, the second is the number of hidden nodes, and the last is the number of output nodes. 
+
 
