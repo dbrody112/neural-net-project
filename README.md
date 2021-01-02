@@ -1,6 +1,9 @@
 # neural-net-project
 
-Shown is an implementation of a neural net eith one hidden layer in python from scratch using the concept of nodes. The code has two separate programs: the training and testing program.
+Shown is an implementation of a neural net eith one hidden layer in python from scratch using the concept of nodes. In order to run the program run main.py.
+
+
+The code has two separate programs: the training and testing program. 
 In the training program the training set file and weights are inputted (format later discussed) and the number of epochs and the learning rate are specified. The training program will then generate a file of the learned weights.
 In the testing program the program accepts a file of the learned weights, a testing set file, and a file to store all results. The results include the overall accuracy, precision, recall, and f1 score for each class, as well as the micro-averaged and macro-averaged form of these scores.
 There are three datasets that were used in this project, the Wisconsin Diagnostic Breast Cancer (WDBC) dataset, a grades dataset made from scratch, and a dataset predicting biodegradable chemicals which was derived from the UCI Machine Learning Repository called the QSAR biodegradation data set (this was studied most extensively and info can be found in biodeg.pdf) 
