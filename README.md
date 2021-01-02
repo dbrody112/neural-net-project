@@ -11,6 +11,6 @@ Shown above is the training set (which can be found in this repository as biodeg
 
 <i>*Note that this is only a snapshot. The full 600 instances can be found in biodeg.train.txt</i>
 
-![test](https://user-images.githubusercontent.com/59486373/103460898-23b32a00-4ce8-11eb-8a96-cf3cf838f07d.png)
+![train](https://user-images.githubusercontent.com/59486373/103460890-0c743c80-4ce8-11eb-9701-bfe5c1ce5690.png)
 
 
