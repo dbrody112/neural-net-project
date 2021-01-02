@@ -21,4 +21,4 @@ Shown above is the training set (which can be found in this repository as biodeg
 
 Shown above is an example of a weights file. Once again the delimiter is a space and each line has a certain format. On the first line the first number is the number of input nodes, the second is the number of hidden nodes, and the last is the number of output nodes. The next lines have the number of input nodes + 1 as entries where the first number in each line is the bias. After the last hidden node (in this case after line 21) there are the output nodes where each entry is the number of hidden nodes+1 and the first number in each line is the bias. 
 
-<i>*For more info you can check out the description in neural-net.pdf</i>
+<i>*For more info you can check out the description in neural-net.docx</i>
