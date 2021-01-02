@@ -7,4 +7,5 @@ In the testing program the program accepts a file of the learned weights, a test
 ![train](https://user-images.githubusercontent.com/59486373/103460591-645d7400-4ce5-11eb-8daf-d0650cf8f5d1.png)
 
 Shown above is the training set (which can be found in this repository as biodeg.train.txt) where the format is such that numbers need to have spaces as delimiters and each line has a certain format. The testing set, as well, has the same format. The first number in the first line is the number of training examples, the second is the number of dependent variables, and the last is the number of target variables. Each line below the first line consists of the three training variables plus one target variable, hence four numbers per line.
+
 <i>*Note that this is only a snapshot. The full 600 instances can be found in biodeg.train.txt</i>
